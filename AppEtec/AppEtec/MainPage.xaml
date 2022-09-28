@@ -5,7 +5,20 @@
 
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            
+            <Grid RowDefinitions="160, *" BackgroundColor="#3E474C">
+                <StackLayout Grid.Row="0" BackgroundColor="#F3F2F0" Padding="10" Margin="10" HorizontalOptions="FillAndExpand" >
+                    <Image Source="Images.logo.png" Aspect="AspectFill" />
+                </StackLayout>
+                
+                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
+                    <Button Text="Inicial" Style="{ StaticResource btn_vermelho }" />
+                    <Button Text="Primeiro Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Text="Segundo Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Text="Terceiro Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Text="Vestibulinho" Style="{ StaticResource btn_vermelho }" />
+                    <Button Text="Contato" Style="{ StaticResource btn_vermelho }" />
+                </StackLayout>
+            </Grid>
         </ContentPage>
     </MasterDetailPage.Master>
 

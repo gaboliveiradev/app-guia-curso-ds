@@ -2,7 +2,22 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtec.App">
+    
     <Application.Resources>
+        <ResourceDictionary>
 
+            <Style x:Name="btn_vermelho" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#AB0209" />
+                <Setter Property="TextColor" Value="#fff" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+
+            <Style x:Name="btn_cinza" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#3E474C" />
+                <Setter Property="TextColor" Value="#fff" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -7,7 +7,7 @@
         <ContentPage Title="Menu">
             <Grid RowDefinitions="160, *" BackgroundColor="#3E474C">
                 <StackLayout Grid.Row="0" BackgroundColor="#F3F2F0" Padding="10" Margin="10" HorizontalOptions="FillAndExpand" >
-                    <Image Source="Images.logo.png" Aspect="AspectFill" />
+                    <Image Source="AppEtec.Images.logo.png" Aspect="AspectFill" />
                 </StackLayout>
                 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">

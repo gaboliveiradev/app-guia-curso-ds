@@ -6,13 +6,13 @@
     <Application.Resources>
         <ResourceDictionary>
 
-            <Style x:Name="btn_vermelho" TargetType="Button">
+            <Style x:Key="btn_vermelho" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#AB0209" />
                 <Setter Property="TextColor" Value="#fff" />
                 <Setter Property="CornerRadius" Value="5" />
             </Style>
 
-            <Style x:Name="btn_cinza" TargetType="Button">
+            <Style x:Key="btn_cinza" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#3E474C" />
                 <Setter Property="TextColor" Value="#fff" />
                 <Setter Property="CornerRadius" Value="5" />

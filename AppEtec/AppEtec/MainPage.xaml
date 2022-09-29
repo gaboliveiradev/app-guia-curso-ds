@@ -11,12 +11,12 @@
                 </StackLayout>
                 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
-                    <Button Text="Inicial" Style="{ StaticResource btn_vermelho }" />
-                    <Button Text="Primeiro Módulo" Style="{ StaticResource btn_cinza }" />
-                    <Button Text="Segundo Módulo" Style="{ StaticResource btn_cinza }" />
-                    <Button Text="Terceiro Módulo" Style="{ StaticResource btn_cinza }" />
-                    <Button Text="Vestibulinho" Style="{ StaticResource btn_vermelho }" />
-                    <Button Text="Contato" Style="{ StaticResource btn_vermelho }" />
+                    <Button Clicked="btn_inicial" Text="Inicial" Style="{ StaticResource btn_vermelho }" />
+                    <Button Clicked="btn_primeiro" Text="Primeiro Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Clicked="btn_segundo" Text="Segundo Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Clicked="btn_terceiro" Text="Terceiro Módulo" Style="{ StaticResource btn_cinza }" />
+                    <Button Clicked="btn_vestibulinho" Text="Vestibulinho" Style="{ StaticResource btn_vermelho }" />
+                    <Button Clicked="btn_contato" Text="Contato" Style="{ StaticResource btn_vermelho }" />
                 </StackLayout>
             </Grid>
         </ContentPage>

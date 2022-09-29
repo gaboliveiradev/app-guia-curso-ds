@@ -19,34 +19,81 @@ namespace AppEtec
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
         }
 
-        private void btn_inicial(object sender, EventArgs e)
+        private async void btn_inicial(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+                IsPresented = false;
+            } catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
 
-        private void btn_primeiro(object sender, EventArgs e)
+        private async void btn_primeiro(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesPrimeiro)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
 
-        private void btn_segundo(object sender, EventArgs e)
+        private async void btn_segundo(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesSegundo)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
 
-        private void btn_terceiro(object sender, EventArgs e)
+        private async void btn_terceiro(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesTerceiro)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
 
-        private void btn_vestibulinho(object sender, EventArgs e)
+        private async void btn_vestibulinho(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Vestibulinho)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
 
-        private void btn_contato(object sender, EventArgs e)
+        private async void btn_contato(object sender, EventArgs e)
         {
-
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Erro", err.Message, "OK");
+            }
         }
     }
 }

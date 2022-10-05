@@ -16,5 +16,40 @@ namespace AppEtec.Views
         {
             InitializeComponent();
         }
+
+        private void btnIngles(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDs(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBancoII(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInternet(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMobile(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWebII(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSE(object sender, EventArgs e)
+        {
+
+        }
     }
 }

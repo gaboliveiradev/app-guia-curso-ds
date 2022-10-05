@@ -22,7 +22,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             } catch (Exception err)
             {
                 await DisplayAlert("Ops!", err.Message, "OK");
@@ -33,7 +38,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -45,7 +55,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -57,7 +72,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -69,7 +89,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -81,7 +106,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -93,7 +123,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {
@@ -105,7 +140,12 @@ namespace AppEtec.Views
         {
             try
             {
-
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
             }
             catch (Exception err)
             {

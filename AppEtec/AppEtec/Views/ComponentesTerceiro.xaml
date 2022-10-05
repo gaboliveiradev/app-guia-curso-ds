@@ -6,12 +6,12 @@
 
         <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
-                <Button Text="Segurança de Sistema de Informação" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Programação de Aplicativos Mobile II" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Programação Web III" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Sistemas Embarcados II" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Qualidade e Teste de Software" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Trabalho de Conclusão de Curso" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnSSI" Text="Segurança de Sistema de Informação" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnMobileII" Text="Programação de Aplicativos Mobile II" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnWebIII" Text="Programação Web III" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnSEII" Text="Sistemas Embarcados II" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnTesteSoft" Text="Qualidade e Teste de Software" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnTcc" Text="Trabalho de Conclusão de Curso" Style="{ StaticResource btn_cinza }" />
             </StackLayout>
         </ScrollView>
         

@@ -6,14 +6,14 @@
         
         <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
-                <Button Text="Linguagem, Trabalho e Tecnologia" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Programação e Algoritmos" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Banco de Dados I" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Análise e Projeto de Sistemas" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Design Digital" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Programação Web I" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Fundamentos da Informática" Style="{ StaticResource btn_cinza }" />
-                <Button Text="Técnicas de Programação" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnLinguagem" Text="Linguagem, Trabalho e Tecnologia" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnAlgoritmos" Text="Programação e Algoritmos" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnBanco" Text="Banco de Dados I" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnAnalise" Text="Análise e Projeto de Sistemas" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnDesign" Text="Design Digital" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnWeb" Text="Programação Web I" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnFundamentos" Text="Fundamentos da Informática" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnTecnicas" Text="Técnicas de Programação" Style="{ StaticResource btn_cinza }" />
             </StackLayout>
         </ScrollView>
         

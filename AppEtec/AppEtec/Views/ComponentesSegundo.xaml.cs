@@ -20,37 +20,134 @@ namespace AppEtec.Views
 
         private async void btnIngles(object sender, EventArgs e)
         {
-            
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
+
+                await Navigation.PushAsync(new VerComponentes(c));
+            } catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnDs(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnBancoII(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnInternet(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnMobile(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnWebII(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
         private async void btnSE(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "",
+                    AtribuicoesResponsabilidades = "",
+                    ValoresAtitudes = ""
+                };
 
+                await Navigation.PushAsync(new VerComponentes(c));
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
     }
 }

@@ -18,43 +18,6 @@ namespace AppEtec.Views
             InitializeComponent();
         }
 
-        private async void btnLinguagem(object sender, EventArgs e)
-        {
-            try
-            {
-                var c = new Componente
-                {
-                    Nome = "Linguagem, Trabalho e Tecnologia",
-                    AtribuicoesResponsabilidades = "Comunicar-se em língua portuguesa, utilizando o vocabulário técnico da área e elaborar registros e planilhas de acompanhamento e controle de atividades.",
-                    ValoresAtitudes = "Incentivar o diálogo e a interlocução. Responsabilizar-se pela produção, utilizando e divulgando informações. Estimular a proatividade."
-                };
-
-                await Navigation.PushAsync(new VerComponentes(c));
-            } catch (Exception err)
-            {
-                await DisplayAlert("Ops!", err.Message, "OK");
-            }
-        }
-
-        private async void btnAlgoritmos(object sender, EventArgs e)
-        {
-            try
-            {
-                var c = new Componente
-                {
-                    Nome = "Programação de Algoritmos",
-                    AtribuicoesResponsabilidades = "Implementar algoritmos em linguagem de programação, utilizando ambientes de desenvolvimento de acordo com as necessidades.",
-                    ValoresAtitudes = "Estimular a organização. Incentivar atitudes de autonomia. Fortalecer a persistência e o interesse na resolução de situação problema."
-                };
-
-                await Navigation.PushAsync(new VerComponentes(c));
-            }
-            catch (Exception err)
-            {
-                await DisplayAlert("Ops!", err.Message, "OK");
-            }
-        }
-
         private async void btnBanco(object sender, EventArgs e)
         {
             try
@@ -156,7 +119,7 @@ namespace AppEtec.Views
             {
                 var c = new Componente
                 {
-                    Nome = "Técnicas de Programação",
+                    Nome = "Técnicas de Programação e Algoritmos",
                     AtribuicoesResponsabilidades = "Desenvolver programas de computador, utilizando princípios de boas práticas. Realizar versionamento no desenvolvimento de programas. Verificar usabilidade no desenvolvimento de programas.",
                     ValoresAtitudes = "Incentivar a criatividade. Incentivar comportamentos éticos. Fortalecer a persistência e o interesse na resolução de situações-problemas."
                 };

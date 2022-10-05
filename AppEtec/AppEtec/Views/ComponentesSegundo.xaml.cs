@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AppEtec.Models;
 
 namespace AppEtec.Views
 {
@@ -17,37 +18,37 @@ namespace AppEtec.Views
             InitializeComponent();
         }
 
-        private void btnIngles(object sender, EventArgs e)
+        private async void btnIngles(object sender, EventArgs e)
+        {
+            
+        }
+
+        private async void btnDs(object sender, EventArgs e)
         {
 
         }
 
-        private void btnDs(object sender, EventArgs e)
+        private async void btnBancoII(object sender, EventArgs e)
         {
 
         }
 
-        private void btnBancoII(object sender, EventArgs e)
+        private async void btnInternet(object sender, EventArgs e)
         {
 
         }
 
-        private void btnInternet(object sender, EventArgs e)
+        private async void btnMobile(object sender, EventArgs e)
         {
 
         }
 
-        private void btnMobile(object sender, EventArgs e)
+        private async void btnWebII(object sender, EventArgs e)
         {
 
         }
 
-        private void btnWebII(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSE(object sender, EventArgs e)
+        private async void btnSE(object sender, EventArgs e)
         {
 
         }

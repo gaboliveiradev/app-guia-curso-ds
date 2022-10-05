@@ -18,44 +18,99 @@ namespace AppEtec.Views
             InitializeComponent();
         }
 
-        private void btnLinguagem(object sender, EventArgs e)
+        private async void btnLinguagem(object sender, EventArgs e)
         {
+            try
+            {
 
+            } catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnAlgoritmos(object sender, EventArgs e)
+        private async void btnAlgoritmos(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnBanco(object sender, EventArgs e)
+        private async void btnBanco(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnAnalise(object sender, EventArgs e)
+        private async void btnAnalise(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnDesign(object sender, EventArgs e)
+        private async void btnDesign(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnWeb(object sender, EventArgs e)
+        private async void btnWeb(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnFundamentos(object sender, EventArgs e)
+        private async void btnFundamentos(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
 
-        private void btnTecnicas(object sender, EventArgs e)
+        private async void btnTecnicas(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception err)
+            {
+                await DisplayAlert("Ops!", err.Message, "OK");
+            }
         }
     }
 }

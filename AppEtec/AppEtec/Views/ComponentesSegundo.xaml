@@ -10,7 +10,7 @@
                 <Button Clicked="btnBancoII" Text="Banco de Dados II" Style="{ StaticResource btn_cinza }" />
                 <Button Clicked="btnMobile" Text="Programação de Aplicativos Mobile I" Style="{ StaticResource btn_cinza }" />
                 <Button Clicked="btnWebII" Text="Programação Web II" Style="{ StaticResource btn_cinza }" />
-                <Button Clicked="btnSE" Text="Sistemas Embarcados" Style="{ StaticResource btn_cinza }" />
+                <Button Clicked="btnSE" Text="Sistemas Embarcados I" Style="{ StaticResource btn_cinza }" />
                 <Button Clicked="btnEtica" Text="Ética" Style="{ StaticResource btn_cinza }" />
             </StackLayout>
         </ScrollView>

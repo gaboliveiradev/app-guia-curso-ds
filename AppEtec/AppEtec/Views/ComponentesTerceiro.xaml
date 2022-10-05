@@ -3,10 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtec.Views.ComponentesTerceiro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+                <Button Text="Segurança de Sistema de Informação" Style="{ StaticResource btn_cinza }" />
+                <Button Text="Programação de Aplicativos Mobile II" Style="{ StaticResource btn_cinza }" />
+                <Button Text="Programação Web III" Style="{ StaticResource btn_cinza }" />
+                <Button Text="Sistemas Embarcados II" Style="{ StaticResource btn_cinza }" />
+                <Button Text="Qualidade e Teste de Software" Style="{ StaticResource btn_cinza }" />
+                <Button Text="Trabalho de Conclusão de Curso" Style="{ StaticResource btn_cinza }" />
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

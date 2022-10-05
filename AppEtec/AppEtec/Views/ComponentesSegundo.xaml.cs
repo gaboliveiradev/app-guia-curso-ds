@@ -18,24 +18,6 @@ namespace AppEtec.Views
             InitializeComponent();
         }
 
-        private async void btnIngles(object sender, EventArgs e)
-        {
-            try
-            {
-                var c = new Componente
-                {
-                    Nome = "",
-                    AtribuicoesResponsabilidades = "",
-                    ValoresAtitudes = ""
-                };
-
-                await Navigation.PushAsync(new VerComponentes(c));
-            } catch (Exception err)
-            {
-                await DisplayAlert("Ops!", err.Message, "OK");
-            }
-        }
-
         private async void btnDs(object sender, EventArgs e)
         {
             try
@@ -74,7 +56,7 @@ namespace AppEtec.Views
             }
         }
 
-        private async void btnInternet(object sender, EventArgs e)
+        private async void btnEtica(object sender, EventArgs e)
         {
             try
             {

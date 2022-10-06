@@ -26,7 +26,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Banco de Dados I",
                     AtribuicoesResponsabilidades = "Modelar banco de dados",
-                    ValoresAtitudes = "Estimular a organização. Fortalecer a persistência e o interesse na resolução de situações-problema. Promover ações qie considerem o respeito ás normas estabelecidas."
+                    ValoresAtitudes = "• Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problema. • Promover ações que considerem o respeito às normas estabelecidas."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));
@@ -45,7 +45,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Análise e Projeto de Sistemas",
                     AtribuicoesResponsabilidades = "Elaborar projetos de sistema de informação.",
-                    ValoresAtitudes = "Estimular a organização. Incentivar a criatividade. Fortalecer a persistência e o interesse na resolução de situações-problemas."
+                    ValoresAtitudes = "• Estimular a organização. Incentivar a criatividade. • Fortalecer a persistência e o interesse na resolução de situações-problemas."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));
@@ -64,7 +64,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Design Digital",
                     AtribuicoesResponsabilidades = "Desenvolver elementos gráficos para aplicativos e site.",
-                    ValoresAtitudes = "Incentivar a criatividade. Respeitar as manifestações culturais de outros povos. Incentivar ações que promovem a cooperação."
+                    ValoresAtitudes = "• Incentivar a criatividade. • Respeitar as manifestações culturais de outros povos. • Incentivar ações que promovem a cooperação."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));
@@ -83,7 +83,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Programação Web I",
                     AtribuicoesResponsabilidades = "Desenvolver sites para Web",
-                    ValoresAtitudes = "Incentivar a criatividade. Estimular a organização. Fortalecer a persistência e o interesse na resolução de situações-problemas."
+                    ValoresAtitudes = "• Incentivar a criatividade. • Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problemas."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));
@@ -102,7 +102,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Fundamentos da Informática",
                     AtribuicoesResponsabilidades = "Operar sistemas computacionais.",
-                    ValoresAtitudes = "Desenvolver a criaticidade. Incentivar comportamentos éticos. Promover ações que considerem o respeito ás normas estabelecidas."
+                    ValoresAtitudes = "• Desenvolver a criaticidade. Incentivar comportamentos éticos. • Promover ações que considerem o respeito ás normas estabelecidas."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));
@@ -121,7 +121,7 @@ namespace AppEtec.Views
                 {
                     Nome = "Técnicas de Programação e Algoritmos",
                     AtribuicoesResponsabilidades = "Desenvolver programas de computador, utilizando princípios de boas práticas. Realizar versionamento no desenvolvimento de programas. Verificar usabilidade no desenvolvimento de programas.",
-                    ValoresAtitudes = "Incentivar a criatividade. Incentivar comportamentos éticos. Fortalecer a persistência e o interesse na resolução de situações-problemas."
+                    ValoresAtitudes = "• Incentivar a criatividade. Incentivar comportamentos éticos. • Fortalecer a persistência e o interesse na resolução de situações-problemas."
                 };
 
                 await Navigation.PushAsync(new VerComponentes(c));

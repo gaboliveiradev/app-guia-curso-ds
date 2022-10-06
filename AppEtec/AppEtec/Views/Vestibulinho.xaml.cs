@@ -21,7 +21,7 @@ namespace AppEtec.Views
         {
             try
             {
-                Device.OpenUri(new Uri("http://www.vestibulinhoetec.com.br"));
+                //Device.OpenUri(new Uri("http://www.vestibulinhoetec.com.br"));
             } catch (Exception err)
             {
                 await DisplayAlert("Ops!", err.Message, "OK");

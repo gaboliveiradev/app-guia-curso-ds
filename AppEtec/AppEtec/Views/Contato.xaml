@@ -3,10 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtec.Views.Contato">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+            <Label Text="Etec Joaquim Ferreira do Amaral" FontSize="Title" FontAttributes="Bold"
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+            />
+            <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP, 17201-320" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Label Text="e070acad@cps.sp.gov.br" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="(14) 3622-3566" Margin="10" Style="{StaticResource btn_vermelho}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

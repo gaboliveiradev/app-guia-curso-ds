@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtec.Views.Vestibulinho">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            
+            <Label Text="FIQUE ATENTO AS DATAS, ACESSE O SITE ABAIXO" HorizontalTextAlignment="Center" 
+                   FontAttributes="Bold" Margin="10" FontSize="Title" 
+            />
+
+            <Button Text="Clique aqui para se inscrever" Style="{StaticResource btn_vermelho}" Clicked="btnOpenUri" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

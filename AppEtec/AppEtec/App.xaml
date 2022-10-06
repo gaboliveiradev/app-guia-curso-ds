@@ -6,6 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
 
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#AB0209"/>
+                <Setter Property="BarTextColor" Value="#FFF"/>
+            </Style>
+
             <Style x:Key="btn_vermelho" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#AB0209" />
                 <Setter Property="TextColor" Value="#fff" />
